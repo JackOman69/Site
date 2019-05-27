@@ -1,10 +1,28 @@
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+html,body{
+	max-width: 100%;
+	height: 100%;
+}
 h4#cat{
 	color: #FF9900FF;
 	text-decoration: underline;
 }
 h3{
 	padding-left: 0;
+}
+h3#cat{
+	color: #FF9900FF;
+	text-decoration: underline;
+}
+li{
+	display: inline;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+a:hover{
+	text-decoration: none;
+	color: #000000;
 }
 #rectangular1{
 	padding: 2px;
@@ -34,9 +52,15 @@ p{
 	font-size: 15pt;
 	font-weight: bold;
 }
+span{
+	font-weight: bold;
+	color: #9F9A9AFF;
+	font-size: 13pt;
+}
 time{
 	font-weight: bold;
 	color: #9F9A9AFF;
+	font-size: 13pt;
 }
 img{
 	margin-bottom: 1em;
@@ -77,7 +101,7 @@ input{
 }
 
 .container1.active{
-  width: 220px;
+  width: 170px;
   padding-left: 25px;
   transition: all 0.5s ease;
 }
@@ -140,8 +164,17 @@ button i {
 .social a i{
 	width: 1.3em;
 }
+.social a:hover{
+	background-color: #0000ff;
+}
 .pdb{
 	padding-bottom: 2em;
+}
+.pdt{
+	padding-top: 1em;
+}
+.pdt5{
+	padding-top: 5em;
 }
 .pdb0{
 	padding: 0;
@@ -151,4 +184,18 @@ button i {
 }
 .m4{
 	margin-bottom: 4em;
+}
+.m2{
+	margin: 2em;
+}
+.mx-1{
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.my-2{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.mt0{
+	margin-top: 0;
 }
