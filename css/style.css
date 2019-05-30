@@ -13,6 +13,10 @@ h3#cat{
 	color: #FF9900FF;
 	text-decoration: underline;
 }
+h6{
+	color: #ffffff;
+	font-weight: bold;
+}
 li{
 	display: inline;
 }
