@@ -175,7 +175,7 @@ button i {
 	height: 100%;
 }
 #mail{
-	padding: 3em 0 3em 0;
+	padding: 2em 0 2em 0;
 }
 #logo{
 	width: 100%;
@@ -183,13 +183,10 @@ button i {
 }
 .social a{
  	text-align: center;
-    width:3em;
-    height:2em;
+  	width: 50%;
     background:#fff;
     border:1px solid #ccc;
-    box-shadow:0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
     border-radius:46px;
-    margin:0 10px 10px 0;
     padding:6px;
     color:#000;
 }
