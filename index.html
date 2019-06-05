@@ -13,74 +13,110 @@
 </head>
 <body>
 	<!-- NavBar -->
-	<div class="container pdb">
-		<div class="row">
-			<div class="col-3 text-left" id="clogo">
-				<img src="logo-black.svg" alt="logo" id="logo">
-			</div>
-			<div class="col-3"></div>
-			<div class="col-6 pdb0">
-				<div class="row">
-					<div class="col">
-						<nav class="navbar navbar-expand-lg pdb0">
-						    <div class="collapse navbar-collapse w-100 order-1 order-lg-0" id="navbarNav">
-						        <ul class="navbar-nav">
-						            <li class="nav-item active mx-3">
-						                <a class="nav-link" href="#"><h5>Главная</h5></a>
-						            </li>
-						            <li class="nav-item mx-3">
-						                <a class="nav-link" href="#"><h5>Кто я</h5></a>
-						            </li>
-						            <li class="nav-item mx-3">
-						                <a class="nav-link" href="#"><h5>Блог</h5></a>
-						            </li>
-						           <li class="nav-item mx-3"> 
-						           		<div class="container1">
-											<input type="text" class="input" placeholder="Search">
-					   						<i class="fa fa-search fa-2x" aria-hidden="true"></i>
-			   							</div>
-			   						</li>
-						        </ul>
-						    </div>
-						    <div class="d-flex w-50 order-0 text-right">
-						        <div class="w-100">
-						            <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNav">
-						                <i class="fa fa-cannabis fa-x"></i>
-						            </button>
-						        </div>  
-						    </div>
-						</nav>
-					</div>
-				</div>
-			</div>
+	<nav class="navbar">
+		<a class="navbar-brand pdb0 d-none" href=""><img src="logo-black.svg" alt="logo" id="logo"></a>
+		<div class="col text-center">
+			<a class="navbar-brand pdb0" href=""><img src="logo-black.svg" alt="logo" id="logo"></a>
 		</div>
-	</div>
+		<ul class="list-inline">
+  			<li class="list-inline-item mx-3">
+  				<h5 onClick="window.location.href='http://ya.ru'">Главная</h5
+  				li>
+  			<li class="list-inline-item mx-3">
+  				<h5 onClick="window.location.href='http://ya.ru'">Кто я</h5>
+  			</li>
+  			<li class="list-inline-item mx-3">
+  				<h5 onClick="window.location.href='http://ya.ru'">Блог</h5>
+  			</li>
+  			<li class="list-inline-item pxa">
+  				<input class="pdt" type="text" id="input1" placeholder="Search" autocomplete="off">
+  				<i class="fas fa-search fa-x"></i>
+  			</li>
+  		</ul>
+	</nav>
 	<!-- End of NavBAr -->
 
 	<!-- Main section -->
-	<div class="container">
+	<div class="container mpx300">
 		<div class="row">
 			<div class="col text-left pdb">
 				<h1>Самое читаемое</h1>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-8">
+			<div class="col-lg-8 col-md-12 col-sm-8 col-12">
 				<div class="row">
-					<div class="col">
+					<div class="col" onClick="window.location.href='http://ya.ru'" style="cursor: pointer;">
 						<div class="row">
 							<div class="col">
-								<img src="test.png" alt="test" id="cntn">
+								<img src="img/blog.jpg" border="0" alt="test" id="cntn">
 							</div>
 						</div>
 						<div class="row">
 							<div class="col">
-								<h4 id="cat">Полезное</h4>
+								<a href=""><h4 id="cat">Полезное</h4></a>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col">
 								<h3>Азазза</h3>
+							</div>
+						</div>
+						<div class="row m4">
+							<div class="col">
+								<time>14 April 2019</time>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-12 d-none-block d-lg-none">
+				<div class="row pdb">
+					<div class="col" onClick="window.location.href='http://ya.ru'" style="cursor: pointer;">
+						<div class="row">
+							<div class="col">
+								<a href=""><h4 id="cat">Полезное</h4></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<h3>Python</h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<time>14 April 2019</time>
+							</div>
+						</div>
+					</div>
+				
+					<div class="col" onClick="window.location.href='http://ya.ru'" style="cursor: pointer;">
+						<div class="row">
+							<div class="col">
+								<a href=""><h4 id="cat">Полезное</h4></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<h3>RestfullApi</h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<time>14 April 2019</time>
+							</div>
+						</div>
+					</div>
+				
+					<div class="col" onClick="window.location.href='http://ya.ru'" style="cursor: pointer;" id="third">
+						<div class="row">
+							<div class="col">
+								<a href=""><h4 id="cat">Разбираемся</h4></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<h3>Админка</h3>
 							</div>
 						</div>
 						<div class="row">
@@ -91,81 +127,81 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-lg-4 col-sm-4 d-none d-lg-block">
 				<div class="row pdb">
-					<div class="col">
+					<div class="col" onClick="window.location.href='http://ya.ru'" style="cursor: pointer;">
 						<div class="row">
-					<div class="col">
-						<h4 id="cat">Полезное</h4>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col">
-						<h3>Python</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col">
-						<time>14 April 2019</time>
-					</div>
-				</div>
-					</div>
-				</div>
-				<div class="row pdb">
-					<div class="col">
+							<div class="col">
+								<a href=""><h4 id="cat">Полезное</h4></a>
+							</div>
+						</div>
 						<div class="row">
-					<div class="col">
-						<h4 id="cat">Полезное</h4>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col">
-						<h3>RestfullApi</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col">
-						<time>14 April 2019</time>
-					</div>
-				</div>
+							<div class="col">
+								<h3>Python</h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<time>14 April 2019</time>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="row pdb">
-					<div class="col">
+					<div class="col" onClick="window.location.href='http://ya.ru'" style="cursor: pointer;">
 						<div class="row">
-					<div class="col">
-						<h4 id="cat">Разбираемся</h4>
+							<div class="col">
+								<a href=""><h4 id="cat">Полезное</h4></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<h3>RestfullApi</h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<time>14 April 2019</time>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col">
-						<h3>Админка</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col">
-						<time>14 April 2019</time>
-					</div>
-				</div>
+				<div class="row pdb">
+					<div class="col" onClick="window.location.href='http://ya.ru'" style="cursor: pointer;">
+						<div class="row">
+							<div class="col">
+								<a href=""><h4 id="cat">Разбираемся</h4></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<h3>Админка</h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<time>14 April 2019</time>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col text-left pdb">
-				<h2>Полезное</h2>
+				<a href=""><h2>Полезное</h2></a>
 			</div>
 		</div>
 		<div class="row" id="useless">
-			<div class="col">
+			<div class="col" onClick="window.location.href='http://ya.ru'" style="cursor: pointer;">
 				<div class="row">
 					<div class="col">
-						<img src="test.png" alt="test" id="cntn">
+						<img src="img/blog.jpg" alt="test" id="cntn">
 					</div>
 				</div>
 				<div class="row">
 					<div class="col">
-						<h4 id="cat">Полезное</h4>
+						<a href=""><h4 id="cat">Полезное</h4></a>
 					</div>
 				</div>
 				<div class="row">
@@ -179,15 +215,15 @@
 					</div>
 				</div>
 			</div>
-			<div class="col">
+			<div class="col" onClick="window.location.href='http://ya.ru'" style="cursor: pointer;">
 				<div class="row">
 					<div class="col">
-						<img src="test.png" alt="test" id="cntn">
+						<img src="img/blog.jpg" alt="test" id="cntn">
 					</div>
 				</div>
 				<div class="row">
 					<div class="col">
-						<h4 id="cat">Полезное</h4>
+						<a href=""><h4 id="cat">Полезное</h4></a>
 					</div>
 				</div>
 				<div class="row">
@@ -208,15 +244,15 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col">
+			<div class="col-lg-6 col-md-12 col-sm-6 col-12" onClick="window.location.href='http://ya.ru'" style="cursor: pointer;">
 				<div class="row">
 					<div class="col">
-						<img src="test.png" alt="test" id="cntn">
+						<img src="img/blog.jpg" alt="test" id="cntn">
 					</div>
 				</div>
 				<div class="row">
 					<div class="col">
-						<h4 id="cat">Интересное</h4>
+						<a href=""><h4 id="cat">Интересное</h4></a>
 					</div>
 				</div>
 				<div class="row">
@@ -224,7 +260,7 @@
 						<h3>Лучшие качества программиста</h3>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row m4">
 					<div class="col">
 						<time>14 April 2019</time>
 					</div>
@@ -232,10 +268,10 @@
 			</div>
 			<div class="col">
 				<div class="row">
-					<div class="col pdb">
+					<div class="col pdb" onClick="window.location.href='http://ya.ru'" style="cursor: pointer;">
 						<div class="row">
 							<div class="col">
-								<img src="test.png" alt="test" id="cntn" class="s25">
+								<img src="img/blog.jpg" alt="test" id="cntn" class="s25">
 							</div>
 						</div>
 						<div class="row">
@@ -244,10 +280,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="col pdb">
+					<div class="col pdb" onClick="window.location.href='http://ya.ru'" style="cursor: pointer;">
 						<div class="row">
 							<div class="col">
-								<img src="test.png" alt="test" id="cntn" class="s25">
+								<img src="img/blog.jpg" alt="test" id="cntn" class="s25">
 							</div>
 						</div>
 						<div class="row">
@@ -258,10 +294,10 @@
 					</div>
 				</div>
 					<div class="row">
-						<div class="col">
+						<div class="col" onClick="window.location.href='http://ya.ru'" style="cursor: pointer;">
 							<div class="row">
 								<div class="col">
-									<img src="test.png" alt="test" id="cntn" class="s25">
+									<img src="img/blog.jpg" alt="test" id="cntn" class="s25">
 								</div>
 							</div>
 							<div class="row">
@@ -270,10 +306,10 @@
 								</div>
 							</div>
 						</div>
-						<div class="col pdb">
+						<div class="col pdb" onClick="window.location.href='http://ya.ru'" style="cursor: pointer;">
 							<div class="row">
 								<div class="col">
-									<img src="test.png" alt="test" id="cntn" class="s25">
+									<img src="img/blog.jpg" alt="test" id="cntn" class="s25">
 								</div>
 							</div>
 							<div class="row">
@@ -292,7 +328,7 @@
 	<div id="footer" class="footer-copyright">
 		<div class="container">
 			<div class="row">
-				<div class="col">
+				<div class="col-5 col-md-5 col-lg-5 col-sm-5">
 					<div class="row">
 						<div class="col-10 pdb0" id="mail">
 							<input type="mail" placeholder=" Введите E-Mail" autocomplete="off">
@@ -302,25 +338,25 @@
 						</div>
 					</div>
 				</div>
-				<div class="col"></div>
-				<div class="col" id="mail">
+				<div class="col-sm-2 col-2 col-md-2 col-lg-2"></div>
+				<div class="col-sm-5 col-5 col-md-5 col-lg-5" id="mail">
 					<div class="row">
 						<div class="col">
-							<div class="social">
+							<div class="social pdt">
 								<a href="https://t.me/sorvl" target="_blank">
 									<i class="fab fa-telegram-plane fa-x"></i>
 								</a>
 							</div>
 						</div>
 						<div class="col">
-							<div class="social">
+							<div class="social pdt">
 								<a href="https://t.me/sorvl" target="_blank">
 									<i class="fab fa-telegram-plane fa-x"></i>
 								</a>
 							</div>
 						</div>
 						<div class="col">
-							<div class="social">
+							<div class="social pdt">
 								<a href="https://t.me/sorvl" target="_blank">
 									<i class="fab fa-telegram-plane fa-x"></i>
 								</a>
@@ -329,20 +365,20 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col pdb0">
+			<div class="row mt3">
+				<div class="col-md-5 col-12 text-center pdb1">
 					<span>BackGoin 2019. All rights reserved</span>
 				</div>
-				<div class="col"></div>
-				<div class="col">
+				<div class="col-md-2 d-none d-md-block"></div>
+				<div class="col-md-5 d-none d-md-block">
 					<div class="row">
-						<div class="col text-center pdb1">
+						<div class="col-lg-4 col-md col-sm-4 col-12 text-center pdb1">
 							<a href="#"><h5 style="color:#ffffff">Главная</h5></a>
 						</div>
-						<div class="col text-center pdb1">
+						<div class="col-lg-4 col-md col-sm-4 col-12 text-center pdb1">
 							<a href="#"><h5 style="color: #ffffff">Кто я</h5></a>
 						</div>
-						<div class="col text-center pdb1">
+						<div class="col-lg-4 col-md col-sm-4 col-12 text-center pdb1">
 							<a href="#"><h5 style="color: #ffffff">Блог</h5></a>
 						</div>
 					</div>

@@ -1,3 +1,6 @@
+h1{
+	font-size: 25pt;
+}
 html,body{
 	max-width: 100%;
 	height: 100%;
@@ -87,7 +90,7 @@ input{
 .container1{
   width: 0px;
   height: 50px;
-  background-color: #000000;
+  background-color: #ffffff;
   text-align: center;
   line-height: 45px;
   padding-right: 50px;
@@ -95,16 +98,22 @@ input{
   border-radius: 5px;
   position: relative;
 }
-.container1 .fa{
-  color: #ffffff;
+.container1 i{
+  color: #000000;
   position: absolute;
   right: 15px;
   top: 15px;
   font-size: 22px;
   cursor: pointer;
 }
-
+.fa-search{
+	color: #000000;
+}
+.fa-search.active{
+	color: #ffffff;
+}
 .container1.active{
+  background-color: #000000;
   width: 170px;
   padding-left: 25px;
   transition: all 0.5s ease;
@@ -131,8 +140,27 @@ button i {
 #useless{
 	padding-bottom: 3em;
 }
+#input{
+	width: 20%;
+	border: none;
+	border-bottom: 2px solid #000000; 
+	border-radius: 0;
+}
+#input:focus{
+	outline: none;
+}
+#input1{
+	width: 80%;
+	border: none;
+	border-bottom: 2px solid #000000; 
+	border-radius: 0;
+}
+#input1:focus{
+	outline: none;
+}
 #cntn{
-	box-shadow: 4px 4px 10px rgba(0,0,0,0.6);
+	height: auto;
+	width: 100%;
 }
 #footer{
 	background-color: #212121FF;
@@ -151,7 +179,7 @@ button i {
 }
 #logo{
 	width: 100%;
-	height: 4em;
+	height: 62px;
 }
 .social a{
  	text-align: center;
@@ -184,7 +212,16 @@ button i {
 	padding: 0;
 }
 .pdb1{
-	padding: 1em ;
+	padding: 1em;
+}
+.pdl0{
+	padding-left: 0;
+}
+.pdc{
+	padding-top: 5px;
+}
+.pdl{
+	padding-left: 1em;
 }
 .m4{
 	margin-bottom: 4em;
@@ -196,10 +233,138 @@ button i {
 	margin-left: 1em;
 	margin-right: 1em;
 }
+.pxa{
+	padding: 0;
+	padding-left: auto;
+	padding-right: auto;
+}
 .my-2{
 	margin-top: 2em;
 	margin-bottom: 2em;
 }
 .mt0{
 	margin-top: 0;
+}
+.mt3{
+	margin-top: 3em;
+}
+.ml1{
+	margin-left: 1em;
+}
+.mpx300{
+	margin-bottom: 300px;
+}
+@media (min-width: 769px){
+	h1{
+		font-size: 22pt;
+	}
+	h2{
+		font-size: 20pt;
+	}
+	h4{
+		font-size: 18pt;
+	}
+	h5{
+		font-size: ;
+	}
+	h3{
+		font-size: 16pt;
+	}
+	time{
+		font-size: 10pt;
+	}
+	.btn{
+		display: none;
+	}
+	#navUl{
+		display: none;
+	}
+	#btn{
+		display: none;
+	}
+	#navbar{
+		display: none;
+	}
+	#navbar1{
+		display: block;
+	}
+}
+@media (min-width: 576px) and (max-width: 769px){
+	h1{
+		font-size: 20pt;
+	}
+	h2{
+		font-size: 20pt;
+	}
+	h4{
+		font-size: 16pt;
+	}
+	h5{
+		font-size: 13pt;
+	}
+	h3{
+		font-size: 14pt;
+	}
+	time{
+		font-size: 10pt;
+	}
+	.btn{ 
+		height: 62px;
+	}
+	#btn{
+		display: none;
+	}
+	#navbar{
+		display: block;
+	}
+	#navbar1{
+		display: none;
+	}
+}
+@media (max-width: 576px){
+	h1{
+		font-size: 20pt;
+	}
+	h2{
+		font-size: 20pt;
+	}
+	h4{
+		font-size: 14pt;
+	}
+	h5{
+		font-size: 
+	}
+	h3{
+		font-size: 12pt;
+		font-weight: bolder;
+	}
+	time{
+		font-size: 10pt;
+	}
+	#navbar{
+		display: block;
+	}
+	#navbar1{
+		display: none;
+	}
+	#btn{
+		display: none;
+	}
+	.list-inline{
+		display: block;
+	}
+	.btn{
+		height: 62px;
+
+	}
+}
+@media (max-width: 488px){
+	.navbar{
+		text-align: center;
+	}
+}
+@media (max-width: 376px){
+	#third{
+		display: none;
+	}
 }
