@@ -12,22 +12,25 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
+	<input type="checkbox" id="nav-toggle" hidden>
 	<!-- NavBar -->
-	<nav class="navbar">
-		<a class="navbar-brand pdb0 text-center" style="margin: auto; " href=""><img src="logo-black.svg" alt="logo" id="logo"></a>
-		<ul class="list-inline" style="margin: auto;">
-  			<li class="list-inline-item">
-  				<h5 onClick="window.location.href='http://ya.ru'">Главная</h5
-  				li>
-  			<li class="list-inline-item mx-3">
-  				<h5 onClick="window.location.href='http://ya.ru'">Кто я</h5>
+	<nav class="navigate">
+		<label for="nav-toggle" class="nav-toggle" onclick></label>
+		<ul class="" style="margin: 1em 0; padding: 20px 10px;">
+  			<li class="mb1">
+  				<h5 class="mb1" onClick="window.location.href='http://ya.ru'">Главная</h5>
   			</li>
-  			<li class="list-inline-item mx-3">
-  				<h5 onClick="window.location.href='http://ya.ru'">Блог</h5>
+  			<li class="mb1">
+  				<h5 class="mb1" onClick="window.location.href='http://ya.ru'">Кто я</h5>
   			</li>
-  			<li class="list-inline-item pxa">
-  				<input class="pdt" type="text" id="input1" placeholder="Search" autocomplete="off">
-  				<i class="fas fa-search fa-x"></i>
+  			<li class="mb1">
+  				<h5 class="mb1" onClick="window.location.href='http://ya.ru'">Блог</h5>
+  			</li>
+  			<li class="pxa">
+  				<div class="container1">
+  					<input type="text" id="input1" class="input" placeholder="Search">
+  					<i class="fa fa-search" aria-hidden="true"></i>
+  				</div>
   			</li>
   		</ul>
 	</nav>
@@ -35,6 +38,11 @@
 
 	<!-- Main section -->
 	<div class="container mpx300">
+		<div class="row">
+			<div class="col text-center">
+				<a class="navbar-brand pdb0 text-center" style="margin: auto; " href=""><img src="logo-black.svg" alt="logo" id="logo"></a>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col text-left pdb">
 				<h1>Самое читаемое</h1>
