@@ -169,10 +169,10 @@ button i {
 	background-color: #0000ff;
 }
 .pdb{
-	padding-bottom: 2em;
+	padding-bottom: 25px;
 }
 .pdt{
-	padding-top: 1em;
+	padding-top: 25px;
 }
 .pdt5{
 	padding-top: 5em;
@@ -280,8 +280,11 @@ button i {
 	height: auto;
 	width: 90%;
 }
-#block:hover{
-	border: 1px solid #000;
+#block{
+	background-color:  #D8D8D8;
+	border-radius: 8px;
+	padding: 15px;
+	margin: 0px 10px;
 }
 #nav-item{
 	color: #fff;
@@ -344,6 +347,9 @@ button i {
 	time{
 		font-size: 10pt;
 	}
+	#r3{
+		margin-top: 10px;
+	}
 	.btn{
 		display: none;
 	}
@@ -363,6 +369,9 @@ button i {
 	}
 	#nav-item{
 		font-size: 13pt;
+	}
+	#r3{
+		margin-top: 10px;
 	}
 	h3{
 		font-size: 14pt;
@@ -397,6 +406,9 @@ button i {
 	#btn{
 		display: none;
 	}
+	#r3{
+		margin-top: 10px;
+	}
 	.list-inline{
 		display: block;
 	}
@@ -412,6 +424,12 @@ button i {
 	.navbar{
 		text-align: center;
 	}
+	#third{
+		display: none;
+	}
+	#r3{
+		margin-top: 10px;
+	}
 	#mail1{
 	padding: 00 2em 0;
 	}
@@ -419,6 +437,9 @@ button i {
 @media (max-width: 376px){
 	#third{
 		display: none;
+	}
+	#r3{
+		margin-top: 10px;
 	}
 	#mail1{
 	padding: 0 0 2em 0;
